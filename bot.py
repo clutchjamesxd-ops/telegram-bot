@@ -76,7 +76,7 @@ def save_history():
 def main_menu(user_id=None):
 
     menu = [
-        [InlineKeyboardButton("💰 Balance", callback_data="balance")],
+        [InlineKeyboardButton("Balance", callback_data="balance")],
         [InlineKeyboardButton("🛒 Buy Key", callback_data="buykey")],
         [InlineKeyboardButton("📦 My Keys", callback_data="mykeys")],
         [InlineKeyboardButton("📜 History", callback_data="history")],
