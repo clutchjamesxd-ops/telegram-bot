@@ -3,7 +3,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8685890604:AAF9g_l5UGQyCzKuzklhTpt2lvNBvFVGZo0"
+TOKEN = os.getenv("8685890604:AAF9g_l5UGQyCzKuzklhTpt2lvNBvFVGZo0")
 ADMIN_ID = 8271376829
 
 QR_PATH = "/storage/emulated/0/Bot py/qr.jpg"
